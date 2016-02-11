@@ -13,6 +13,7 @@
 		27BA84441A97D20B00D56471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BA84431A97D20B00D56471 /* Images.xcassets */; };
 		27BA84471A97D20B00D56471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BA84451A97D20B00D56471 /* LaunchScreen.xib */; };
 		27BA84531A97D20B00D56471 /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA84521A97D20B00D56471 /* Cat_YearsTests.swift */; };
+		27BA845D1A97D42800D56471 /* tumblr_static_impress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27BA845C1A97D42800D56471 /* tumblr_static_impress.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		27BA844C1A97D20B00D56471 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BA84511A97D20B00D56471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27BA84521A97D20B00D56471 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
+		27BA845C1A97D42800D56471 /* tumblr_static_impress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_static_impress.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				27BA843C1A97D20B00D56471 /* AppDelegate.swift */,
 				27BA843E1A97D20B00D56471 /* ViewController.swift */,
 				27BA84401A97D20B00D56471 /* Main.storyboard */,
+				27BA845C1A97D42800D56471 /* tumblr_static_impress.jpg */,
 				27BA84431A97D20B00D56471 /* Images.xcassets */,
 				27BA84451A97D20B00D56471 /* LaunchScreen.xib */,
 				27BA843A1A97D20B00D56471 /* Supporting Files */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					27BA84361A97D20B00D56471 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 32CKTWNPRF;
 					};
 					27BA844B1A97D20B00D56471 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -195,6 +199,7 @@
 				27BA84421A97D20B00D56471 /* Main.storyboard in Resources */,
 				27BA84471A97D20B00D56471 /* LaunchScreen.xib in Resources */,
 				27BA84441A97D20B00D56471 /* Images.xcassets in Resources */,
+				27BA845D1A97D42800D56471 /* tumblr_static_impress.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +416,7 @@
 				27BA84581A97D20B00D56471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27BA84591A97D20B00D56471 /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +425,7 @@
 				27BA845B1A97D20B00D56471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
